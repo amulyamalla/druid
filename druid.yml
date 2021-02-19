@@ -1,0 +1,6 @@
+---
+- name: Deploy Druid database
+  hosts: all
+  roles:
+    - role: druid
+  become: true

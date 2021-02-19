@@ -1,0 +1,7 @@
+# include install, config, and test for druid role
+- include: install.yml
+  tags: install
+- include: config.yml
+  tags: config
+- include: test.yml
+  tags: test
