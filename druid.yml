@@ -1,6 +1,6 @@
 ---
 - name: Deploy Druid database
-  hosts: all
+  hosts: druid-nodes
   roles:
     - role: druid
   become: true
